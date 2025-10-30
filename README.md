@@ -21,7 +21,7 @@ npm start
 
 ## Equipe
 
-**Gabriel Duarte** - RM556972
-**Thomaz Bartol** - RM555323
+- **Gabriel Duarte** - RM556972
+- **Thomaz Bartol** - RM555323
 
 **Turma:** 2TDSPG - FIAP 2025
