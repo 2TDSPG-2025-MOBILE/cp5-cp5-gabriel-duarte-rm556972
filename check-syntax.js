@@ -5,8 +5,8 @@
  * Não executa JSX, apenas verifica se os imports/exports estão corretos
  */
 
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 const checkFile = (filePath) => {
   try {
@@ -36,7 +36,7 @@ const checkFile = (filePath) => {
       issues.push('Colchetes desbalanceados');
     }
     
-    // Verifica imports/exports básicos
+    // Verifica imports/exports básicos (não roda JSX)
     const hasImport = content.includes('import ');
     const hasExport = content.includes('export ');
     
